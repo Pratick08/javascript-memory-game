@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title> MEMORY GAME</title>
+</head>
+
+<body>
+    <!-- <i class="fa-sharp fa-solid fa-rotate-right" style="font-size: 20px; color: red;"></i> -->
+    <div class="heading">
+        <img src="brainstorm.png" alt="">
+        <h1>Match the <span>Images</span></h1>
+    </div>
+    <div id="main-section" class="main-section">
+        
+        <button id="btn" >START</button>
+        <div id="card-section" class="card-section">
+        </div>
+        <div id="move-count" class="move-count"></div>
+        <div class="sound">
+            <img class="sound1" src="game.png" alt="">
+            <img class="sound2" src="mute.png" alt="">
+        </div>
+        
+    </div>
+    <div id="game-over" class="game-over">
+        <h3 id="h3">GAME OVER</h3>
+    </div>
+    
+<input id="refresh-game" class="refresh-game" type="button" value="RESTART" onclick="window.location.reload(true)">
+
+</body>
+<script src="index.js"></script>
+
+</html>
